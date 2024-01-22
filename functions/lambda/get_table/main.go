@@ -21,6 +21,7 @@ type Dyno struct {
 	Client *dynamodb.Client
 }
 
+// Example of using SDK with Local DynamoDB
 func (dyno *Dyno) ListTables() []string {
 	var tableName []string
 
